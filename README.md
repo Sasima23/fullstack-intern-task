@@ -53,5 +53,6 @@ App runs on http://localhost:5173
 ## Author
 Sasima Parvin S
 Email: sasimaparvin23@gmail.com
+Phone no : 9629233409
 GitHub: https://github.com/Sasima23
 LinkedIn: https://www.linkedin.com/in/sasima-parvin-s
