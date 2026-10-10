@@ -3,7 +3,6 @@ const db = require('../db');
 
 const router = express.Router();
 
-// GET /api/templates  (optional: ?category=Blog&search=modern)
 router.get('/', async (req, res) => {
   const { category, search } = req.query;
   try {
@@ -18,7 +17,6 @@ router.get('/', async (req, res) => {
   }
 });
 
-// GET /api/templates/:id
 router.get('/:id', async (req, res) => {
   const id = Number(req.params.id);
   if (!Number.isInteger(id)) {

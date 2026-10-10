@@ -21,7 +21,6 @@ router.get('/', async (req, res) => {
   }
 });
 
-// POST /api/favorites/:templateId
 router.post('/:templateId', async (req, res) => {
   const templateId = Number(req.params.templateId);
   if (!Number.isInteger(templateId)) {
@@ -48,7 +47,6 @@ router.post('/:templateId', async (req, res) => {
   }
 });
 
-// DELETE /api/favorites/:templateId  (to un-favorite, frontend-ku venum)
 router.delete('/:templateId', async (req, res) => {
   const templateId = Number(req.params.templateId);
   if (!Number.isInteger(templateId)) {
